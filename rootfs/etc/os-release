@@ -1,0 +1,11 @@
+NAME="MusOS"
+PRETTY_NAME="MusOS"
+ID=musos
+BUILD_ID=rolling
+ANSI_COLOR="38;2;23;147;209"
+HOME_URL="https://t.me/tomorrowqq"
+DOCUMENTATION_URL="https://t.me/tomorrowqq"
+SUPPORT_URL="https://t.me/tomorrowqq"
+BUG_REPORT_URL="https://t.me/tomorrowqq"
+PRIVACY_POLICY_URL="https://terms.archlinux.org/docs/privacy-policy/"
+LOGO=musos-logo

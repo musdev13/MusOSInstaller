@@ -1,0 +1,37 @@
+# Base system packages
+base
+base-devel
+linux
+linux-firmware
+sof-firmware
+
+# Boot and system management
+grub
+efibootmgr
+dosfstools
+mtools
+mkinitcpio
+sudo
+plymouth
+
+# Network management
+networkmanager
+broadcom-wl
+
+# Bluetooth support
+blueman
+
+# Additional utilities
+git
+curl
+wget
+vim
+neovim
+nano
+gedit
+flatpak
+zed
+android-tools
+scrcpy
+kdeconnect
+fastfetch
