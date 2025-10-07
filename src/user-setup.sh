@@ -79,7 +79,7 @@ install_end4_dots() {
 
     # Create temporary script file
     local tmp_script="/tmp/end4-dots-setup.sh"
-    curl -s "https://end-4.github.io/dots-hyprland-wiki/setup.sh" -o "$tmp_script"
+    curl -s "https://ii.clsty.link/setup" -o "$tmp_script"
     
     if [ ! -f "$tmp_script" ]; then
         echo -e "${RED}Error: Failed to download end4-dots setup script${NC}"
