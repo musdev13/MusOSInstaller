@@ -113,6 +113,8 @@ install_arch() {
             rsync -a "$SCRIPT_DIR/../rootfs/home/user/" "/mnt/home/$username/"
         fi
 
+	arch-chroot /mnt /bin/bash -c "chown -R $username:$username /home/$username"
+
         print_step "Changing plymouth theme..."
         arch-chroot /mnt /bin/bash -c "plymouth-set-default-theme spinner"
 
